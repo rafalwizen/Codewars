@@ -5,19 +5,18 @@ package kata;
 
 public class DecodeTheMorseCode {
 
-	public class MorseCodeDecoder {
-	    public static String decode(String morseCode) {
-			String[] splitted = morseCode.trim().split("\\s{3,3}");
-			String result = "";
-			for (String word : splitted) {
-				String[] splittedWord = word.split("\\s");
-				for (String letter : splittedWord) {
-					result = result + MorseCode.get(letter);
-				}
-				result = result + " ";
+    public static String decode(String morseCode) {
+		String[] splitted = morseCode.trim().split("\\s{3,3}");
+		String result = "";
+		for (String word : splitted) {
+			String[] splittedWord = word.split("\\s");
+			for (String letter : splittedWord) {
+				//result = result + MorseCode.get(letter); 
+	// MorseCode table is preloaded as a dictionary in this kata on Codewars so I commented previous line out to hide "error" in program
 			}
-			result = result.trim();		
-			return result;
+			result = result + " ";
 		}
+		result = result.trim();		
+		return result;
 	}	
 }
