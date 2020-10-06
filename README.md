@@ -10,5 +10,5 @@
 * [Decode the Morse code](https://github.com/rafalwizen/Codewars/blob/master/src/kata/DecodeTheMorseCode.java)
 * [What century is it?](https://github.com/rafalwizen/Codewars/blob/master/src/kata/WhatCenturyIsIt.java)
 * [Matrix Addition](https://github.com/rafalwizen/Codewars/blob/master/src/kata/MatrixAddition.java)
-
+* [Backspaces in string](https://github.com/rafalwizen/Codewars/blob/master/src/kata/BackspaceInString.java)
 
