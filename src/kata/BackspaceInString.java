@@ -16,7 +16,6 @@ public class BackspaceInString {
 		String result = s;		
 		while(result.contains("#")) {			
 			result = result.replaceAll("^#+|[^#]#", "");
-			System.out.println(result);
 		}		
 		return result;
 	}

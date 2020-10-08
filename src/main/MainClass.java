@@ -1,12 +1,12 @@
 package main;
 
-import kata.BackspaceInString;
+import kata.SumsOfParts;
 
 public class MainClass {
 
 	public static void main(String[] args) {
-			BackspaceInString backspaceInString = new BackspaceInString();
-			backspaceInString.cleanString("######dfg#######c#d");
+			int[] ls = {1, 2, 3, 4, 5, 6};
+			SumsOfParts.sumParts(ls);
 		}
 		
 }
