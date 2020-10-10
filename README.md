@@ -12,3 +12,4 @@
 * [Matrix Addition](https://github.com/rafalwizen/Codewars/blob/master/src/kata/MatrixAddition.java)
 * [Backspaces in string](https://github.com/rafalwizen/Codewars/blob/master/src/kata/BackspaceInString.java)
 * [Sums of Parts](https://github.com/rafalwizen/Codewars/blob/master/src/kata/SumsOfParts.java)
+* [Counting Duplicates](https://github.com/rafalwizen/Codewars/blob/master/src/kata/CountingDuplicates.java)
